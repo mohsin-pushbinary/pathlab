@@ -1,0 +1,235 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patients Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mx-auto  mb-2 mb-lg-0 ">
+                    <li class="nav-item ms-2">
+                        <a class="nav-link active" aria-current="page" href="book-a-test.html">PATIENTS</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="#" tabindex="-1">DOCTORS</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="#" tabindex="-1">
+                            ABOUT US</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="#" tabindex="-1">CONTACT US</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="#" tabindex="-1">FAQS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar-expand-lg nav-2" style="background: #fff;">
+        <div class="container">
+            <div class="row">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" style="width: 7%; position: absolute; top: 70px;"></a>
+                    <ul class="navbar-nav mx-auto   mb-2 mb-lg-0 ">
+                        <li class="nav-item ms-3">
+                            <a class="nav-link active" aria-current="page" href="book-a-test.html">Book a Test</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="#" tabindex="-1">Test Menu</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="#" tabindex="-1">
+                                Download Report</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-md-center mt-3">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <div class="input-group">
+                        <select class="form-select">
+                            <option selected>All</option>
+                            <option value="1">Tests</option>
+                            <option value="2">Packages</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <input type="text" class="form-control" style="padding: 6px 0 6px 10px;"
+                            placeholder="Search Here....">
+                        <button class="btn btn-secondary"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4  justify-content-center">
+                    <div class="d-flex">
+                        <div class="mb-3">
+                            <div class="cursor-pointer cartSection ms-3">
+                                <i class="fa-solid fa-cart-shopping blue-text">
+                                    <a href="packageaddtocart.html"><span class="top-0 start-100 translate-middle badge rounded-pill bg-blue font-8" style="width: 18px; height: 18px;">
+                                        1
+                                    </span>
+                                    </a>
+                                </i>
+
+                                <span>Cart</span>
+                            </div>
+
+                        </div>
+                        <div class="mb-3">
+                            <div class="cursor-pointer cartSection ms-3">
+                                <i class="fa-solid fa-circle-user blue-text"></i>
+                                <span>9799004408</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>        
+    </nav>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="d-flex align-items-center justify-content-between mb-3"><p class="title mb-0">Saved Address</p>
+                    <button data-bs-target="#address-form" data-bs-toggle="modal" type="button" class="cursor-pointer btn btn-primary mb-0">+ Add NEW ADDRESS</button>
+                </div>                
+            </div>     
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="text-blue fw-bold"><i class="fa-solid fa-house text-blue"></i> Home</div>
+                            <div class="ms-auto"><a href="#address-form" data-bs-toggle="modal"><i class="fa-solid fa-pen-to-square text-blue font-24"></i></a></div>
+                            <div class="ms-3"><input class="form-check-input" type="checkbox" value="" id="address"></div>
+                        </div> 
+                        <div class="mt-3">
+                            <p>Udaipur, Rajasthan, India</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="" class="">Schedule Slot </label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="time-slot mb-5">
+                                <button type="button" class="btn btn-success">06:00 AM</button>
+                                <button type="button" class="btn btn-success">06:30 AM</button>
+                                <button type="button" class="btn btn-success">07:00 Am</button>
+                                <button type="button" class="btn btn-success">07:30 Am</button>
+                                <button type="button" class="btn btn-success">08:00 AM</button>
+                                <button type="button" class="btn btn-success">08:30 AM</button>
+                                <button type="button" class="btn btn-success">09:00 AM</button>
+                                <button type="button" class="btn btn-success">09:30 AM</button>
+                                <button type="button" class="btn btn-success">10:00 AM</button>
+                                <button type="button" class="btn btn-success">10:30 AM</button>
+                            </div>
+                            <div class="text-end">
+                                <button class="btn btn-primary upercase">Confirm</button>
+                            </div>
+                            
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Address Modal -->
+<div class="modal fade" id="address-form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="card-title mx-auto">Add Address</h5>
+          <button type="button" class="btn-close close-m" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="input-group">
+                <input type="text" class="form-control" style="padding: 6px 0 6px 10px;" placeholder="Search Here....">
+                <button class="btn btn-secondary"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.4626215158028!2d81.85616217275265!3d25.45622347155459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acaa1600b6505%3A0x1b487175df71d454!2sAarav%20Pathology!5e0!3m2!1sen!2sin!4v1707140282550!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <form class="row g-3 p-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>                   
+                  </form>
+            </div>
+            <div class="d-grid gap-2 mt-5">
+                <a href="#" type="button" class="btn btn-primary upercase">proceed</a>
+                
+              </div>  
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/e3d3afcbb9.js" crossorigin="anonymous"></script>
+<script src="js/custom.js"></script>
+</body>
+
+</html>
