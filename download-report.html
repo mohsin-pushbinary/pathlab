@@ -53,7 +53,7 @@
                             <a class="nav-link" href="#" tabindex="-1">Test Menu</a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link" href="#" tabindex="-1">
+                            <a class="nav-link" href="download-report.html" tabindex="-1">
                                 Download Report</a>
                         </li>
                     </ul>
@@ -109,23 +109,110 @@
         </div>        
     </nav>
     <div class="container">
-        <div class="row">
-            <di class="col-md-4">
-                <div class="card">
+        <div class="row align-items-center mt-5">
+            <div class="col-md-4">
+                <div class="card" style="border: 2px solid #004899;">
+                    <div class="card-body">                       
+                        <div class="row align-items-center">
+                            <div class="col-md-3">
+                                <img src="images/men.png">
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0 fw-bold"><strong>Rohit Sharma</strong></p>
+                                <p class="mb-0 font-12"><span>Self</span> |<span class="ms-1">Male</span></p>
+                                <p class="mb-0 font-12"><span class="">Age</span> |<span>34</span></p>
+                                <p class="mb-0 mt-2"><span class="badge text-bg-primary">Regular</span></p>
+                            </div>
+                            <div class="col-md-2" style="text-align: right;">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="selectuser" id="selectuser1" checked>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>                    
+                </div>                
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="border: 2px solid #004899;">
+                    <div class="card-body">                       
+                        <div class="row align-items-center">
+                            <div class="col-md-3">
+                                <img src="images/women.png">
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0 fw-bold"><strong>Sonal Sharma</strong></p>
+                                <p class="mb-0 font-12"><span>Family</span> |<span class="ms-1">Female</span></p>
+                                <p class="mb-0 font-12"><span class="">Age</span> |<span>30</span></p>
+                                <p class="mb-0 mt-2"><span class="badge text-bg-primary">Regular</span></p>
+                            </div>
+                            <div class="col-md-2" style="text-align: right;">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="selectuser" id="selectuser1">
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>                    
+                </div>                
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div class="row">
+                    <label for="" class="col-md-2 col-form-label upercase fw-bold">Reports</label>
+                    <div class="col-md-4">
+                        <select class="form-select">
+                            <option>6 Month</option>
+                            <option>1 Year</option>
+                            <option>Custom</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card mt-3">
                     <div class="card-body">
-                        <div class="text-end">
-                            <button class="btn btn-primary btn-sm" style="font-size: 12px;">Regular</button>
+                        <div class="w-100 border-primary bg-blue border-radius-50 p-3 mb-3">
+                            <p class="mb-0"><strong>Lab Report Number :443402719</strong></p>
+                            <p class="mb-0 font-12">20-01-2024 | Hiran Magri Udaipur</p>
+                        </div>
+                        <div class="w-100 border-primary border-radius-50 p-3 mb-3">
+                            <p class="mb-0"><strong>Lab Report Number :443402718</strong></p>
+                            <p class="mb-0 font-12">23-12-2023 | Hiran Magri Udaipur</p>
+                        </div>
+                        <div class="w-100 border-primary border-radius-50 p-3 mb-3">
+                            <p class="mb-0"><strong>Lab Report Number :443402718</strong></p>
+                            <p class="mb-0 font-12">23-10-2023 | Hiran Magri Udaipur</p>
+                        </div>
+                        <div class="w-100 border-primary border-radius-50 p-3 mb-3">
+                            <p class="mb-0"><strong>Lab Report Number :443402718</strong></p>
+                            <p class="mb-0 font-12">23-08-2023 | Hiran Magri Udaipur</p>
+                        </div>
+                        <div class="w-100 border-primary border-radius-50 p-3 mb-3">
+                            <p class="mb-0"><strong>Lab Report Number :443402718</strong></p>
+                            <p class="mb-0 font-12">20-06-2023 | Hiran Magri Udaipur</p>
                         </div>
                     </div>
-                    
                 </div>
-                
-            </di>
-        </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="row">
+                    <label for="" class="col-md-2 col-form-label upercase fw-bold">PDF</label>                   
+                </div>
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <div class="d-flex text-blue">
+                            <p class="mx-2 mb-0"><i class="fa-solid fa-file" style="font-size: 16px;"></i></p>
+                            <p class="mb-0">AaravPath_report 443402719</p>
+                            <p class="ms-auto mb-0"><a href="#report" data-bs-toggle="modal"><i class="fa-solid fa-download fa-1x" style="font-size: 16px;"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+        
        
     </div>
     <!-- modal pay success -->
-    <div id="payment" class="modal fade" role="dialog">
+    <div id="report" class="modal fade" role="dialog">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <!-- <div class="modal-header">
@@ -135,7 +222,7 @@
             <div class="modal-body">
               <div class="text-green text-center mb-4"><i class="fa-solid fa-circle-check fa-7x"></i></div>
               <h4 class="text-center text-black" style="margin-top:5px;">Thank You!</h4>
-              <p class="text-center text-blue" style="margin-top:5px;">Your Payment was successful </p>
+              <p class="text-center text-blue" style="margin-top:5px;">Your Report Download was successful </p>
             </div>     
             <div class="text-center mb-5">
               <a href="index.html" class="btn btn-primary">ok</a>       
