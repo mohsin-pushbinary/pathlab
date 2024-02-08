@@ -373,3 +373,13 @@ white-space: nowrap;
   from {bottom: 30px; opacity: 1;}
   to {bottom: 60px; opacity: 0;}
 }
+.card-test{
+  border: 2px solid #004899;
+}
+.card-test:hover{
+  border: 2px solid #004899;
+  background: #e1f5fe;;
+}
+.addtocart:hover{background: #013d81 !important;}
+.sidenav a:hover{color: #013d81 !important; font-weight:500;}
+.bg-success{background: #97c324 !important;}
