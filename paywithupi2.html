@@ -84,7 +84,7 @@
                             <div class="cursor-pointer cartSection ms-3">
                                 <i class="fa-solid fa-cart-shopping blue-text">
                                     <a href="packageaddtocart2.html"><span class="top-0 start-100 translate-middle badge rounded-pill bg-blue font-8" style="width: 18px; height: 18px;">
-                                        1
+                                        2
                                     </span>
                                     </a>
                                 </i>
@@ -111,7 +111,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 mt-5">
-                <h5>Order Amount: ₹2700</h5>
+                <h5>Order Amount: ₹5400</h5>
             </div>            
         </div>
         <div class="row">
@@ -136,15 +136,13 @@
                                         </div>                                              
                                         <P class="checkboxblock mb-0"><input class="form-check-input ms-3 w-10" style="margin-top: 0;" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></P>
                                     </div>  
-                                    <a href="paywithupi.html">
-                                        <div class="btn btn-outline-secondary d-flex mt-3 btn-lg h-66" style="vertical-align: middle;">
-                                            <div class="d-flex w-65 align-items-center">
-                                                <span><img src="images/operation.png"></span>
-                                                <span class="ms-3 font-16 text-blue" style="vertical-align: middle;">Pay with UPI</span>
-                                            </div>                                              
-                                            <P class="checkboxblock mb-0"><input class="form-check-input ms-3 w-10" style="margin-top: 0;" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></P>
-                                        </div> 
-                                    </a>
+                                    <div class="btn btn-outline-secondary d-flex mt-3 btn-lg h-66" style="vertical-align: middle;">
+                                        <div class="d-flex w-65 align-items-center">
+                                            <span><img src="images/operation.png"></span>
+                                            <span class="ms-3 font-16 text-blue" style="vertical-align: middle;">Pay with UPI</span>
+                                        </div>                                              
+                                        <P class="checkboxblock mb-0"><input class="form-check-input ms-3 w-10" style="margin-top: 0;" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked></P>
+                                    </div> 
                                     <div class="btn btn-outline-secondary d-flex mt-3 btn-lg h-66" style="vertical-align: middle;">
                                         <div class="d-flex w-65 align-items-center">
                                             <span><img src="images/wallet.png"></span>
@@ -172,29 +170,10 @@
                             <div class="col-md-8 mt-3">
                                 <form>
                                     <div class="mb-3">
-                                      <label for="card-number" class="form-label">Card Number</label>
-                                      <input type="text" class="form-control" id="card-number" placeholder="4111 1111 1111 1111">                                      
+                                      <label for="card-number" class="form-label">UPI ID</label>
+                                      <input type="text" class="form-control" id="upiid" value="9876543210@ybl">                                      
                                     </div>
-                                    <div class="mb-3">
-                                        <label for="" class="form-label">Name on Card</label>
-                                        <input type="text" class="form-control" id="card-holder" value="Rohit Sharma" placeholder="Card Holder Name">                                      
-                                      </div>
-                                      <div class="mb-3 row">
-                                        <div class="col-md-12">
-                                            <label for="" class="form-label">Expiration Date</label>
-                                        </div>
-                                        <div class="col-md-3">                                            
-                                            <input type="text" class="form-control" placeholder="DD" value="03">
-                                          </div>
-                                          <div class="col-md-3">
-                                            <!-- <label for="inputEmail4" class="form-label">Expiration Date</label> -->
-                                            <input type="text" class="form-control" placeholder="YY" value="2028">
-                                          </div>                                                                        
-                                      </div>
-                                      <div class="col-md-3">
-                                        <label for="" class="form-label">Card CVV</label>
-                                        <input type="text" class="form-control" placeholder="123">
-                                      </div>
+                                   
                                       <a class="btn btn-success mt-3" href="#payment" data-bs-toggle="modal">Pay Now</a>
                                 </form>
                             </div>
