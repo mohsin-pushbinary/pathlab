@@ -190,6 +190,7 @@ a{color: #0054a5; font-weight: 500; text-decoration: none;}
   padding: 30px;
   
 }
+
 .bg-img{background: url(../images/family.avif);
   height: 100%;
   background-size: cover;
@@ -384,3 +385,87 @@ white-space: nowrap;
 .addtocart:hover{background: #013d81 !important;}
 .sidenav a:hover{color: #013d81 !important; font-weight:500;}
 .bg-success{background: #97c324 !important;}
+
+/* vedio section */
+/* hide main hero */
+#banner-1578323856968 { display: none; }
+
+/* section below video with the gif*/
+#shopify-section-1576601151839 {
+  position: relative;
+}
+
+/* video container styling */
+.video-container {
+  position: relative;
+  max-height: 800px;
+}
+.video-container .dark-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background: black;
+  opacity: 0.7;
+}
+.video-container video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+.video-container .overlay-desc {
+  position: relative;
+  z-index: 999;
+  max-width: 600px;
+  margin: 50px 100px;
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 100px; right: 0; bottom: 0; left: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.video-container .overlay-desc h1 {
+  color: white;
+  /* font-size: 3.5rem; */
+}
+
+.video-container .overlay-desc p:not(.p-smaller) {
+  color: white;
+  /* font-size: 1.1rem; */
+  line-height: 1.7rem;
+  /* font-weight: 600; */
+}
+.video-container .overlay-desc p.p-smaller {
+  color: white;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 400;
+  max-width: 375px;
+}
+.video-container .overlay-desc .action_button {
+  color: white;
+  border-color: white;
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 467px) {
+  .video-container .overlay-desc h1 {
+    /* font-size: 1.5rem !important; */
+    line-height: 1.2;
+  }
+  /* .video-container .overlay-desc h1 br {
+    display: none;
+  }   */
+  .video-container .overlay-desc p:not(.p-smaller) {
+    font-size: 0.9rem;
+    line-height: 1;
+  }
+  .video-container .overlay-desc .action_button {
+    font-size: 14px;
+  }
+}
